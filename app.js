@@ -31,3 +31,9 @@ function validateCaptcha() {
     window.location.replace("page.html");
   }
 }
+
+document.getElementById("captcha").bind('cut copy paste', function (e) {
+  e.preventDefault();
+});
+
+
